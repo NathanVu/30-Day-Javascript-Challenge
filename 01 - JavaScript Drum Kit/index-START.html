@@ -69,10 +69,10 @@ window.addEventListener('keydown', function(e){
 
 
 function removeTransition(e){
-  if(e.propertyName !== 'transition') return; //skip it if its not a transform 
+  if(e.propertyName !== 'transition') return; //skip it if its not a transform
 }
 
-const keys = document.querySelectorAll('.key';);
+const keys = document.querySelectorAll('.key');
 keys.forEach(key => key.addEventListener('transitionend',removeTransition));
 
 </script>
